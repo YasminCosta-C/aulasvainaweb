@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semântica T1</title>
+  </head>
+  <body>
+    <!--Header define o cabeçalho da página, geralmente é a primeira tag que utilizamos. Colocamos, menu navageção, logo, sobre mim...-->
+    <header>
+      <img src="./imagens/Logo.png" alt="Logo da empresa wilson sons" />
+
+      <!--Nav (navegação) menu navegação-->
+
+      <!--  A tag <a> é usada em HTML para criar links. Ela permite que você conecte uma parte do texto ou uma imagem a outra página ou recurso, seja dentro do mesmo site ou em um externo. O atributo href define o destino do link. O atributo target é usado na tag <a> para especificar como o link deve ser aberto. Os valores mais comuns são:
+_self: Abre o link na mesma aba ou janela (este é o padrão).
+_blank: Abre o link em uma nova aba ou janela. Isso é útil para manter os visitantes no seu site enquanto eles exploram links externos.-->
+<nav>
+    <ul>
+      <li>
+        <a href="https://www.mcdonalds.com.br/" target="_self">
+          Sobre nós
+        </a>
+      </li>
+      <!--Abrir na mesma aba-->
+      <li>
+        <a href="https://www.mcdonalds.com.br/" target="_blank">
+          Negócios
+        </a>
+      </li>
+      <!--Abrir em uma nova aba-->
+    </ul>
+  </nav>
+</header>
+
+<!--Main, dentro da main vai todo o conteúdo principal do site, como: imagens, mapas, vídeos, seções...-->
+<main>
+  <!--Section, seção , representa uma parte específica do site.-->
+
+  <section>
+    <!--Article, artigo - Representa um conteúdo completo, que pode ser entendido e utilizado de forma independente. Pode incluir postagens de blog, notícias, artigos.-->
+    <article>
+        <h2>Wilson, sons</h2>
+        <p>
+          A Wilson Sons
+          <span>
+            é o maior operador de logística portuária e marítima do mercado
+            brasileiro,</span
+          >
+          com mais de 186 anos de experiência. A companhia tem abrangência
+          nacional e oferece soluções completas para mais de 5 mil clientes,
+          incluindo armadores, importadores e exportadores, indústria de
+          energia offshore, projetos de energia renovável, setor do
+          agronegócio, além de outros participantes em em diversos segmentos
+          da economia.
+        </p>
+
+        <img
+          src="https://www.wilsonsons.com.br/wp-content/uploads/2022/10/ship-image.png"
+          alt="Imagem de um rebocador da empresa wilson sons" width="250" />
+      </article>
+
+      <article>
+        <h2>Wilson, sons</h2>
+        <p>
+          A Wilson Sons
+          <span>
+            é o maior operador de logística portuária e marítima do mercado
+            brasileiro,</span
+          >
+          com mais de 186 anos de experiência. A companhia tem abrangência
+          nacional e oferece soluções completas para mais de 5 mil clientes,
+          incluindo armadores, importadores e exportadores, indústria de
+          energia offshore, projetos de energia renovável, setor do
+          agronegócio, além de outros participantes em em diversos segmentos
+          da economia.
+        </p>
+
+        <img
+          src="https://www.wilsonsons.com.br/wp-content/uploads/2021/07/Webp.net-resizeimage-4-1.jpg"
+          alt="Imagem de um rebocador da empresa wilson sons"
+        />
+      </article>
+
+      <!--Span - é um container embutido, usado para marcar partes de um texto ou seções específicas de um documento-->
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+        tempora ea aut neque veniam mollitia corrupti fugit doloribus deleniti
+        aliquid, quam, voluptatibus, ratione magnam laboriosam illum
+        <span> obcaecati </span> est nisi voluptatem?
+      </p>
+    </section>
+
+    <img>
+    <!--Figure é usada para envolver conteúdos grafícos como imagens-->
+    <figure>
+      <img
+        src="https://www.wilsonsons.com.br/wp-content/uploads/2021/02/1612280794.jpg"
+        alt="Rebocador WS"
+      />
+      <figcaption>Rebocador WS</figcaption>
+      <!--Figcaption é a legenda ou descrição do conteúdo visual (imagem)-->
+      <!--Por semântica, a figure é acompanhada da figcaption-->
+    </figure>
+
+<figure>
+<img src="link ou caminho da imagem" alt="Texto alternativo, descreva a sua imagem aqui"/>
+<figcaption> Legenda da imagem </figcaption>
+</figure>
+</section>
+
+<section> <!--Como se fosse uma galeria de imagens-->
+<img src="" alt=""/>
+<img src="" alt=""/>
+<img src="" alt=""/>
+<img src="" alt=""/>
+</section>
+</main>
+   <!--Footer, define o rodapé da página. Ela contém informações como: informações da página, endereços, redes sociais, avisos de direitos autorais.-->
+   <footer>
+    <nav>
+    
+    <a href="https://br.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" target="_blank">  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="logo do linkedin" width="100"/>   </a>
+    
+    <a href="http://google.com" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="logo do instagram" width="150" /> </a>
+    </nav>
+    
+    <form action=""> <!--Tag que envolve um formulário-->
+    
+      <fieldset> <!--Fieldset é usado para agrupar elementos relacionados em um formulário-->
+    
+        <legend> Preencha os campos</legend>
+    
+        <label for="nome">Nome:</label> <!--Label (etiqueta) define um rótulo/etiqueta para o elemento-->
+    
+        <input type="text" name="nome" id="nome" />
+    
+      </fieldset>
+
+    </form>
+</footer>
+
+  </body>
+</html>    
